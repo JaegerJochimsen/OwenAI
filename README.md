@@ -2,7 +2,7 @@
 A vocal Chat GPT client, sometimes it's nice to talk to a robot.
 
 ## Installation Instructions and Requirements
-Clone the repo and install dependencies:
+1. Clone the repo and install dependencies:
 ```bash
 git clone https://github.com/JaegerJochimsen/OwenAI.git &&\
 python -m venv . &&\
@@ -10,7 +10,7 @@ python -m venv . &&\
 pip install git+https://github.com/openai/whisper.git &&\
 pip install -r requirements.txt
 ```
-Create an OpenAI API Key (used for talking with the gpt-3.5-turbo model):
+2. Create an OpenAI API Key (used for talking with the gpt-3.5-turbo model):
 [OpenAI API for Developers](https://openai.com/product#made-for-developers)
 
 ## Run Owen locally
