@@ -1,0 +1,10 @@
+py3-tts # stand in for pyttsx3
+speechrecognition
+PyAudio
+numpy
+soundfile
+torch
+whisper
+openai
+semantic-text-similarity
+typing
