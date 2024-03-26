@@ -24,8 +24,3 @@ class ThinkCache:
     def put(self, query: str, value: str) -> None:
         self.cache[query] = value
         return
-
-
-if __name__ == '__main__':
-    cache = ThinkCache()
-    click.secho(f"{cache._compare_text('Totally unrelated values', 'Tell me about photosynthesis')}", fg='yellow', bg="black")
