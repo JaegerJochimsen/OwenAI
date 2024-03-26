@@ -4,5 +4,7 @@ PyAudio
 numpy
 soundfile
 torch
-whispe
+whisper
 openai
+semantic-text-similarity
+typing
