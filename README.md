@@ -7,6 +7,7 @@ A vocal Chat GPT client, sometimes it's nice to talk to a robot.
 git clone https://github.com/JaegerJochimsen/OwenAI.git &&\
 python -m venv . &&\
 ./bin/activate &&\
+brew install portaudio &&\
 pip install git+https://github.com/openai/whisper.git &&\
 pip install -r requirements.txt
 ```
