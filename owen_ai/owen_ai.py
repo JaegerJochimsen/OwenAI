@@ -1,5 +1,4 @@
 import os
-import time
 import speech_recognition as sr
 from pyttsx3 import init as engine_init, Engine
 from openai import Client
@@ -13,7 +12,6 @@ class OwenAI:
         self.speech_recognizer = sr.Recognizer()
         self.caching_enabled = caching_enabled
         self.context_cache = context_cache.ContextCache()
-        self.first_call = True
         if self.caching_enabled:
             self.cache = think_cache.ThinkCache()
 
