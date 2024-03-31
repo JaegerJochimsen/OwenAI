@@ -29,3 +29,5 @@ python -m owen_ai
 * Make Owen's voice configurable by the user via conversation
 * Make Owen's role configurable by the user via conversation
 * Allow Owen to hold a multi query-response dialogue
+* RAG for improved searching
+* API call optimization for better realtime discussion
